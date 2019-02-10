@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class FizzBuzz {
 
 
-	public String[] printFizzBuzzed() {
+	public String[] fizzBuzzed() {
 		Stream<String> stringStreamTest = IntStream.rangeClosed(1, 100)
 				.mapToObj(i -> String.valueOf(i))
 				.map(i -> Integer.parseInt(i) % 15 == 0 ? "FizzBuzz" :
@@ -15,8 +15,8 @@ public class FizzBuzz {
 		return stringStreamTest.toArray(size -> new String[size]);
 	}
 
-	public void run() {
-		for (String s : printFizzBuzzed()) {
+	public void printFizzBuzzed() {
+		for (String s : fizzBuzzed()) {
 			System.out.println(s);
 		}
 	}
