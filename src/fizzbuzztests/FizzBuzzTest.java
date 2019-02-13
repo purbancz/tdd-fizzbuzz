@@ -44,7 +44,7 @@ public class FizzBuzzTest {
 	@Test
 	public void testAnyOtherElement() {
 		for (int i = 0; i < fb.fizzBuzzed().length; i++) {
-			if ((i + 1) % 3 != 0 && (i + 1) % 15 != 0 && (i + 1) % 5 != 0) {
+			if ((i + 1) % 3 != 0 && (i + 1) % 5 != 0) {
 				Assert.assertEquals(String.valueOf(i+1), fb.fizzBuzzed()[i]);
 			}
 		}
