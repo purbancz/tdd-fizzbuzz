@@ -55,6 +55,9 @@ public class FizzBuzzScndTest {
 		this.expectedResult = expectedResult;
 		this.fb = new FizzBuzz();
 	}
+	
+	
+	//Note that index of an array starts with zero.
     
 	@Test
     public void testPositive() {
