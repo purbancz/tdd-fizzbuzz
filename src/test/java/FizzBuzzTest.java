@@ -1,10 +1,10 @@
-package fizzbuzztests;
+package test.java;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import fizzbuzzmechanics.FizzBuzz;
+import main.java.FizzBuzz;
 
 public class FizzBuzzTest {
 	private FizzBuzz fb;
